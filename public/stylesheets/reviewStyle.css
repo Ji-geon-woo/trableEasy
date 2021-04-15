@@ -1,0 +1,301 @@
+.body{
+    background-color: #ffffff;
+
+}
+
+/* 맨 위 */
+img.avatars
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 25px;
+    top: 0px;
+    background: url(logo.png);
+    filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+.menus
+{
+    position: relative;
+    width: 99%;
+    height: 360px;
+
+
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 23px;
+    height: 90px;
+
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.menu1,.menu2,.menu3,.menu4
+{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu1
+{
+    position: absolute;
+    width: 67px;
+    height: 30px;
+    left: 798px;
+    top: 35px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+    
+}
+
+.menu2
+{
+    position: absolute;
+    width: 107px;
+    height: 30px;
+    left: 938px;
+    top: 35px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+
+}
+.menu3
+{
+    position: absolute;
+    width: 222px;
+    height: 30px;
+    left: 1101px;
+    top: 35px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+
+
+}
+.menu4
+{
+    position: absolute;
+    width:250px;
+    height: 30px;
+    left: 1250px;
+    top: 35px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+/* 중간 파란 부분 */
+.summary{
+    position: relative;
+    width: 85%;
+    height: 500px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    background-color: #257CFF;
+}
+
+.up{
+    float: right;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.singo_button{
+    right: 0%;
+    border: none;
+    box-shadow: 0 0 0 4px #FFFFFF inset; 
+    border-radius: 10px;
+    padding: 15px;
+    float: right;
+    top: 0px;
+    background-color: #257CFF;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.left{
+    width: 30%;
+    height: 80%;
+    float: left;
+}
+#img{
+    width: 100%;
+    height: 100%;
+    background-color: #FAFAFA;
+
+    /* text-align: center; */
+}
+
+.right{
+    width: 50%;
+    float: left;
+    padding-left: 5%;
+    text-align: left;
+}
+#coruse_name{
+    font-weight: normal;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: #FFFFFF;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#guide{
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 5%;
+
+}
+
+#coruse_summary{
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.down{
+    float: right;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#enroll_button{
+    left: 60%;
+    width: 25%;
+    height: 100px;
+    background-color: #ffffff;
+    color: #555555;
+    font-size: 36px;
+    font-weight: bolder;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: none;
+}
+
+#jjim{
+    float: right;
+    background-color:rgba(0, 0, 0, 0.0);
+    border: none;
+}
+
+.links{
+    width: 100%;
+    float: left;
+    border-bottom: 3px solid #c7c7c7;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/* 정보 보기랑 후기 보기 */
+#info{
+    padding: 20px;
+    width: 49%;
+    color: #6f6f6f; 
+    font-size: 36px; 
+    font-weight: bold;
+    background-color: #ffffff;
+    border: none;
+}
+#review{
+    position: relative;
+    padding: 20px;
+    width: 49%;
+    color: #6f6f6f; 
+    font-size: 36px; 
+    font-weight: bold;
+    background-color: #ffffff;
+    border: none;
+}
+.reviews{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#item{
+    width: 100%;
+    height: fit-content;
+    padding: 50px;
+    left: 60px;
+    top: 50px;
+    border: 2px solid #c7c7c7;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: white;
+    float: center;
+    text-align: start;
+    margin: 30px 3px 3px 3px;
+}
+
+
+
+#title{
+    font-size: 22px;
+    color: #6f6f6f;
+    font-weight: bolder;
+}
+#review_body{
+    font-size: 18px;
+    color: #6f6f6f;
+    font-weight: lighter;
+}
+
+
+.container {
+    width: 100%;
+  }
+
+  .modal {
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px; 
+  }
+
+  /* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+    text-align: center;
+    padding: 40px;
+  }
+  
+button,img{
+    cursor: pointer;
+}
+
+  
